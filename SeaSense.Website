@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SEASENSE - Belajar Laut Seru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- SPLINE BACKGROUND -->
+<div id="spline-bg">
+    <iframe
+        id="spline-iframe"
+        src="https://my.spline.design/pigislandcopy-t4S0DeRAVRTcg0ZnoDKkZ2KV/"
+        frameborder="0"
+        allowfullscreen
+    ></iframe>
+</div>
+
+<!-- KONTEN WEBSITE -->
+<div id="main-content">
+    <!-- header, materi, quiz kamu di sini -->
+</div>
+
+<!-- JS BACKGROUND -->
+<script src="spline-bg.js"></script>
+<body>
+
+<header class="header">
+    <h1>🌊 SEASENSE 🐠</h1>
+    <p>Belajar Laut & Pantai dengan Cara Seru!</p>
+</header>
+
+<section class="hero">
+    <h2>Ayo Kenalan Lebih Dalam dengan Muara Gembong 🌴</h2>
+    <p>
+        Pantai Muara Gembong adalah pantai unik di Kabupaten Bekasi, Jawa Barat.
+        Pantai ini bukan hanya tempat bermain, tapi juga tempat belajar tentang alam dan lingkungan 🌏
+    </p>
+</section>
+
+<section class="content">
+    <h2>🌳 Keajaiban Hutan Bakau (Mangrove)</h2>
+    <p>
+        Hutan bakau adalah hutan yang tumbuh di pinggir laut. Pohon bakau sangat hebat karena
+        bisa hidup di air asin dan memiliki akar kuat yang melindungi pantai dari ombak.
+    </p>
+
+    <ul>
+        <li>🛡️ Melindungi pantai dari abrasi</li>
+        <li>🐟 Rumah ikan, udang, dan kepiting</li>
+        <li>🐦 Tempat tinggal burung</li>
+    </ul>
+
+    <h3>👣 Ekowisata Mangrove</h3>
+    <p>
+        Di Muara Gembong, kita bisa berjalan di jembatan kayu di tengah hutan bakau,
+        melihat akar pohon, kepiting, dan mendengar suara burung.
+    </p>
+</section>
+
+<section class="content">
+    <h2>🏖️ Keunikan Pantai Muara Gembong</h2>
+
+    <p><strong>🏝️ Pasir Cokelat</strong><br>
+        Pasir pantai ini berwarna cokelat tua karena campuran lumpur sungai dan tanah bakau.
+    </p>
+
+    <p><strong>🌊 Ombak Tenang</strong><br>
+        Ombaknya tidak besar sehingga aman untuk keluarga dan anak-anak.
+    </p>
+
+    <p><strong>🚣‍♂️ Naik Perahu</strong><br>
+        Pengunjung bisa naik perahu untuk melihat hutan bakau dari laut.
+    </p>
+</section>
+
+<section class="content warning">
+    <h2>🌍 Tantangan Lingkungan</h2>
+    <p>
+        Pantai Muara Gembong menghadapi abrasi dan banjir rob.
+        Abrasi membuat pantai terkikis, sedangkan banjir rob terjadi saat air laut pasang tinggi.
+    </p>
+</section>
+
+<section class="content success">
+    <h2>🌱 Upaya Menjaga Muara Gembong</h2>
+    <ul>
+        <li>🌿 Menanam ribuan pohon bakau</li>
+        <li>🤝 Kerja sama warga dan komunitas</li>
+        <li>♻️ Mengembangkan ekowisata</li>
+    </ul>
+</section>
+
+<!-- SPACE TAMBAHAN MATERI -->
+<section class="content empty">
+    <h2>📘 Materi Tambahan: Hutan Mangrove</h2>
+
+    <h3>🌱 Mengenal Lebih Dekat Pohon Mangrove</h3>
+    <p>
+        Pohon mangrove adalah pohon hebat yang hidup di tepi laut.
+        Tidak semua pohon bisa hidup di air asin, tetapi mangrove bisa!
+        Itulah sebabnya mangrove sangat istimewa 🌊
+    </p>
+
+    <ul>
+        <li>🌊 Hidup di air laut yang asin</li>
+        <li>🦵 Akar tumbuh ke atas seperti kaki</li>
+        <li>🛡️ Menjaga pantai agar tidak rusak</li>
+    </ul>
+
+    <h3>🐟 Siapa Saja yang Tinggal di Hutan Mangrove?</h3>
+    <p>
+        Hutan mangrove adalah rumah bagi banyak makhluk hidup.
+        Mereka hidup aman di antara akar-akar mangrove.
+    </p>
+
+    <ul>
+        <li>🐠 Ikan kecil dan ikan bayi</li>
+        <li>🦀 Kepiting yang berjalan di lumpur</li>
+        <li>🦐 Udang dan kerang</li>
+        <li>🐦 Burung yang mencari makan</li>
+    </ul>
+
+    <h3>🌍 Mengapa Mangrove Penting untuk Bumi?</h3>
+    <p>
+        Mangrove membantu bumi tetap sehat dan sejuk.
+        Mangrove menyimpan gas karbon agar tidak membuat bumi semakin panas.
+    </p>
+
+    <ul>
+        <li>💨 Menyimpan karbon penyebab pemanasan global</li>
+        <li>❄️ Membantu menjaga suhu bumi</li>
+        <li>🌱 Melindungi alam untuk masa depan</li>
+    </ul>
+
+    <h3>🛡️ Mangrove dan Perlindungan Pantai</h3>
+    <p>
+        Saat ombak besar datang, akar mangrove bekerja keras
+        menahan tanah agar tidak hanyut.
+    </p>
+
+    <ul>
+        <li>🌊 Mengurangi abrasi pantai</li>
+        <li>⚠️ Mengurangi dampak badai</li>
+        <li>🏠 Melindungi rumah warga pesisir</li>
+    </ul>
+
+    <h3>👧👦 Peran Anak dalam Menjaga Mangrove</h3>
+    <p>
+        Anak-anak juga bisa menjadi pahlawan mangrove, lho! 💚
+    </p>
+
+    <ul>
+        <li>🚮 Tidak membuang sampah sembarangan</li>
+        <li>🌱 Ikut menanam pohon</li>
+        <li>📚 Belajar tentang lingkungan</li>
+        <li>🗣️ Mengajak teman mencintai alam</li>
+    </ul>
+
+    <p class="highlight">
+        🌟 Menjaga mangrove berarti menjaga laut, bumi, dan masa depan kita!
+    </p>
+</section>
+
+<!-- FLIPBOOK SECTION -->
+<section class="flipbook-section">
+    <h2>📖 Yuk Baca Buku Interaktif Mangrove!</h2>
+    <p>Tekan tombol di bawah untuk membuka buku digital seru 🌱🐠</p>
+
+    <a 
+        href="https://online.fliphtml5.com/vkxut/fwnq/index.html" 
+        target="_blank" 
+        class="flipbook-btn"
+    >
+        📘 Buka Flipbook Mangrove
+    </a>
+</section>
+
+<!-- VIDEO ANIMASI SECTION -->
+<section class="video-section">
+    <h2>🎬 Video Animasi: Hutan Mangrove</h2>
+    <p>Yuk tonton video animasi seru tentang hutan mangrove 🌱🐟</p>
+
+    <div class="video-wrapper">
+        <iframe 
+            src="https://drive.google.com/file/d/1m5hSpSlvyYS4uF0zvRZsEzsE1tx3IZ_9/preview"
+            allow="autoplay"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <button class="video-btn" onclick="playVideo()">
+        ▶️ Putar Video
+    </button>
+</section>
+
+<!-- KUIS -->
+<section class="quiz">
+    <h2>🧠 Kuis Seru Muara Gembong</h2>
+    <button onclick="document.getElementById('quiz-box').style.display='block'">
+        🎯 Mulai Kuis
+    </button>
+
+    <div id="quiz-box">
+        <p>1. Pantai Muara Gembong berada di?</p>
+        <p>✅ Bekasi</p>
+
+        <p>2. Pohon khas di Muara Gembong?</p>
+        <p>✅ Pohon Bakau</p>
+
+        <p>3. Fungsi akar bakau?</p>
+        <p>✅ Menahan tanah agar tidak hanyut</p>
+
+        <p>4. Warna pasir pantai?</p>
+        <p>✅ Cokelat tua</p>
+
+        <p>5. Cara menjaga pantai?</p>
+        <p>✅ Menanam bakau dan menjaga kebersihan</p>
+        <h2><!-- BACKGROUND GRADIENT SHADER -->
+<div class="shader-bg"></div>
+
+<section class="spline-section">
+    <h2>🌍 Terima Kasih Sudah Menjawab</h2>
+    <p>Putar dan lihat hadiah robotmu!.</p>
+    <div class="spline-wrapper">
+        <iframe 
+            src="https://my.spline.design/superkidrobotcopy-x6EoCbLA7R1HInyG1R1YFl5T/"
+            frameborder="0"
+            width="100%"
+            height="100%"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+</h2>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>🌊 SEASENSE © 2025 | Belajar Cinta Laut Sejak Dini 🐠</p>
+</footer>
+
+</body>
+</html>
+
