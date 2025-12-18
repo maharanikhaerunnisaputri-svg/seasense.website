@@ -3,6 +3,7 @@ body {
     font-family: "Comic Sans MS", Arial, sans-serif;
     background: #e0f7ff;
     color: #034b63;
+    background-image: url('pantai.jpg');
 }
 
 .header {
