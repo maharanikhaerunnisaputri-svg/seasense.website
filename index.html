@@ -1,60 +1,84 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>SEASENSE - Belajar Laut Seru</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEASENSE - Belajar Laut Seru</title>
+<meta name="description" content="Belajar tentang hutan mangrove dan Pantai Muara Gembong dengan cara yang seru, lengkap dengan buku digital, video, dan kuis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<!-- SPLINE BACKGROUND -->
-<div id="spline-bg">
-    <iframe
-        id="spline-iframe"
-        src="https://my.spline.design/pigislandcopy-t4S0DeRAVRTcg0ZnoDKkZ2KV/"
-        frameborder="0"
-        allowfullscreen
-    ></iframe>
-</div>
-
-<!-- KONTEN WEBSITE -->
-<div id="main-content">
-    <!-- header, materi, quiz kamu di sini -->
-</div>
-
-<!-- JS BACKGROUND -->
-<script src="spline-bg.js"></script>
 <body>
 
-<header class="header">
+<!-- progress bar baca -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- NAVIGASI -->
+<nav class="site-nav" id="siteNav">
+    <a href="#beranda" class="nav-brand">🌊 SEASENSE</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Buka menu navigasi">
+        <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+        <a href="#mangrove">🌳 Mangrove</a>
+        <a href="#pantai">🏖️ Pantai</a>
+        <a href="#tantangan">🌍 Tantangan</a>
+        <a href="#aksi">🌱 Aksi</a>
+        <a href="#materi">📘 Materi</a>
+        <a href="#flipbook">📖 Buku</a>
+        <a href="#video">🎬 Video</a>
+        <a href="#kuis">🧠 Kuis</a>
+    </div>
+</nav>
+
+<header class="header" id="beranda">
     <h1>🌊 SEASENSE 🐠</h1>
-    <p>Belajar Laut & Pantai dengan Cara Seru!</p>
+    <p>Belajar Laut &amp; Pantai dengan Cara Seru!</p>
 </header>
 
 <section class="hero">
-    <h2>Ayo Kenalan Lebih Dalam dengan Muara Gembong 🌴</h2>
-    <p>
-        Ekosistem mangrove adalah tipe hutan yang dicirikan oleh vegetasi yang tumbuh di zona
-intertidal, biasa ditemukan di wilayah tropis, dan vegetasi mangrove dapat beradaptasi dengan tingkat salinitas perairan yang lebar (Kuenzer et al., 2011). Berdasarkan pemutakhiran Peta Mangrove Nasional tahun 2021 oleh Kementerian Lingkungan Hidup dan Kehutanan, luas hutan mangrove di Indonesia adalah 3.364.076 ha (Direktorat Pendayagunaan Pesisir dan Pulau-Pulau
-Kecil, 2021). Hutan mangrove menyediakan manfaat yang sangat penting dan merupakan ekosistem paling produktif dan kompleks secara biologis (Giri, 2016). Secara ekologis mangrove berperan sebagai pelindung dari efek fisik laut seperti gelombang dan pasang surut yang berpotensi menyebabkan erosi dan merupakan penyerap karbon biru dalam siklus nutrien di alam (Pham et al., 2019). Secara ekonomis mangrove dimanfaatkan untuk kepentingan masyarakat, salah satunya sebagai hutan produksi (Pamungkas et al., 2020).🌏
-    </p>
+    <div class="hero-grid">
+        <div class="hero-text">
+            <h2>Ayo Kenalan Lebih Dalam dengan Muara Gembong 🌴</h2>
 
-    <p>
-        Keberadaan mangrove yang berdampak penting bagi kehidupan masyarakat dapat ditemukan di Kecamatan Muara Gembong, Kabupaten Bekasi. Dengan banyak aliran sungai bermuara di wilayah yang berbentuk kepala burung serta disusun oleh tanah aluvial (Solihuddin et al., 2021).
-    </p>
+            <div class="fact-chips">
+                <span class="chip">📍 Kabupaten Bekasi, Jawa Barat</span>
+                <span class="chip">📐 Luas 122,90 km²</span>
+                <span class="chip">🌱 3,3 juta ha mangrove di Indonesia</span>
+            </div>
 
-    <p>
-        Wilayah Pesisir Muara Gembong, yang secara
-geografis terletak di posisi 106 ° 57'-107 ° 02 'Bujur Timur dan 6 ° 00'- 6 ° 05'Lintang Selatan adalah salah
-satu kecamatan yang terletak di bagian utara Kabupaten Bekasi dengan luas 122,90 km 2 Perairan Muara Gembong memiliki ekosistem estuari dan mangrove (Asyiawati & Akliyah 2014). Namun sekarang perairan Muara Gembong telah mengalami degradasi, kondisi kualitas air di perairan Muara Gembong sebagai habitat untuk pertumbuhan dan pengembangan sumberdaya ikan telah menurun (Siahainenia 2001 dalam Damaianto & Masduqi 2014).
-    </p>
+            <p>
+                Ekosistem mangrove adalah tipe hutan yang dicirikan oleh vegetasi yang tumbuh di zona
+                intertidal, biasa ditemukan di wilayah tropis, dan vegetasi mangrove dapat beradaptasi dengan tingkat salinitas perairan yang lebar (Kuenzer et al., 2011). Berdasarkan pemutakhiran Peta Mangrove Nasional tahun 2021 oleh Kementerian Lingkungan Hidup dan Kehutanan, luas hutan mangrove di Indonesia adalah 3.364.076 ha (Direktorat Pendayagunaan Pesisir dan Pulau-Pulau
+                Kecil, 2021). Hutan mangrove menyediakan manfaat yang sangat penting dan merupakan ekosistem paling produktif dan kompleks secara biologis (Giri, 2016). Secara ekologis mangrove berperan sebagai pelindung dari efek fisik laut seperti gelombang dan pasang surut yang berpotensi menyebabkan erosi dan merupakan penyerap karbon biru dalam siklus nutrien di alam (Pham et al., 2019). Secara ekonomis mangrove dimanfaatkan untuk kepentingan masyarakat, salah satunya sebagai hutan produksi (Pamungkas et al., 2020).🌏
+            </p>
 
-    <p>
-        Muara Gembong juga memiliki keunikan dan kekayaan sumberdaya alam yang telah disebutkan sebelumnya. Salah satu daya tarik yang
-dimiliki Muara Gembong yaitu hutan bakau, lutung jawa, burung elang, biawak, kera ekor panjang, pantai-pantai seperti pantai muara beting dan pantai bahagia
-serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong sendiri hanya dapat melalui jalur darat dan laut yaitu kendaraan pribadi dan angkutan umum dan untuk menuju daya tarik tersebut hanya dapat dilalui oleh kapal yang disediakan oleh penduduk lokal karena jalur yang dilalui berupa sungai serta dilanjutkan dengan berjalan kaki.
-    </p>
+            <p>
+                Keberadaan mangrove yang berdampak penting bagi kehidupan masyarakat dapat ditemukan di Kecamatan Muara Gembong, Kabupaten Bekasi. Dengan banyak aliran sungai bermuara di wilayah yang berbentuk kepala burung serta disusun oleh tanah aluvial (Solihuddin et al., 2021).
+            </p>
+
+            <p>
+                Wilayah Pesisir Muara Gembong, yang secara
+                geografis terletak di posisi 106 ° 57'-107 ° 02 'Bujur Timur dan 6 ° 00'- 6 ° 05'Lintang Selatan adalah salah
+                satu kecamatan yang terletak di bagian utara Kabupaten Bekasi dengan luas 122,90 km 2 Perairan Muara Gembong memiliki ekosistem estuari dan mangrove (Asyiawati & Akliyah 2014). Namun sekarang perairan Muara Gembong telah mengalami degradasi, kondisi kualitas air di perairan Muara Gembong sebagai habitat untuk pertumbuhan dan pengembangan sumberdaya ikan telah menurun (Siahainenia 2001 dalam Damaianto & Masduqi 2014).
+            </p>
+
+            <p>
+                Muara Gembong juga memiliki keunikan dan kekayaan sumberdaya alam yang telah disebutkan sebelumnya. Salah satu daya tarik yang
+                dimiliki Muara Gembong yaitu hutan bakau, lutung jawa, burung elang, biawak, kera ekor panjang, pantai-pantai seperti pantai muara beting dan pantai bahagia
+                serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong sendiri hanya dapat melalui jalur darat dan laut yaitu kendaraan pribadi dan angkutan umum dan untuk menuju daya tarik tersebut hanya dapat dilalui oleh kapal yang disediakan oleh penduduk lokal karena jalur yang dilalui berupa sungai serta dilanjutkan dengan berjalan kaki.
+            </p>
+        </div>
+
+        <div class="hero-visual">
+            <img src="pantai.jpg" alt="Ilustrasi pantai tropis dengan pohon kelapa, air laut biru jernih, dan kepiting di pasir" loading="lazy">
+        </div>
+    </div>
 </section>
 
-<section class="content">
+<section class="content" id="mangrove" data-accent="leaf">
     <h2>🌳 Keajaiban Hutan Bakau (Mangrove)</h2>
     <p>
         Hutan bakau adalah hutan yang tumbuh di pinggir laut. Pohon bakau sangat hebat karena
@@ -74,7 +98,7 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
     </p>
 </section>
 
-<section class="content">
+<section class="content" id="pantai" data-accent="ocean">
     <h2>🏖️ Keunikan Pantai Muara Gembong</h2>
 
     <p><strong>🏝️ Pasir Cokelat</strong><br>
@@ -90,7 +114,7 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
     </p>
 </section>
 
-<section class="content warning">
+<section class="content warning" id="tantangan" data-accent="coral">
     <h2>🌍 Tantangan Lingkungan</h2>
     <p>
         Pantai Muara Gembong menghadapi abrasi dan banjir rob.
@@ -98,7 +122,7 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
     </p>
 </section>
 
-<section class="content success">
+<section class="content success" id="aksi" data-accent="leaf">
     <h2>🌱 Upaya Menjaga Muara Gembong</h2>
     <ul>
         <li>🌿 Menanam ribuan pohon bakau</li>
@@ -108,7 +132,7 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
 </section>
 
 <!-- SPACE TAMBAHAN MATERI -->
-<section class="content empty">
+<section class="content empty" id="materi" data-accent="lagoon">
     <h2>📘 Materi Tambahan: Hutan Mangrove</h2>
 
     <h3>🌱 Mengenal Lebih Dekat Pohon Mangrove</h3>
@@ -179,13 +203,14 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
 </section>
 
 <!-- FLIPBOOK SECTION -->
-<section class="flipbook-section">
+<section class="flipbook-section" id="flipbook">
     <h2>📖 Yuk Baca Buku Interaktif Mangrove!</h2>
     <p>Tekan tombol di bawah untuk membuka buku digital seru 🌱🐠</p>
 
-    <a 
-        href="https://online.fliphtml5.com/vkxut/loao/index.html" 
-        target="_blank" 
+    <a
+        href="https://online.fliphtml5.com/vkxut/loao/index.html"
+        target="_blank"
+        rel="noopener"
         class="flipbook-btn"
     >
         📘 Buka Flipbook Mangrove
@@ -193,27 +218,29 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
 </section>
 
 <!-- VIDEO ANIMASI SECTION -->
-<section class="video-section">
+<section class="video-section" id="video">
     <h2>🎬 Video Animasi: Hutan Mangrove</h2>
     <p>Yuk tonton video animasi seru tentang hutan mangrove 🌱🐟</p>
 
     <div class="video-wrapper">
-        <iframe 
+        <iframe
             src="https://drive.google.com/file/d/1m5hSpSlvyYS4uF0zvRZsEzsE1tx3IZ_9/preview"
             allow="autoplay"
-            allowfullscreen>
+            allowfullscreen
+            loading="lazy">
         </iframe>
     </div>
 
-    <button class="video-btn" onclick="playVideo()">
+    <button class="video-btn" onclick="playVideo()" type="button">
         ▶️ Putar Video
     </button>
 </section>
 
 <!-- KUIS -->
-<section class="quiz">
+<section class="quiz" id="kuis">
     <h2>🧠 Kuis Seru Muara Gembong</h2>
-    <button id="startBtn" onclick="mulaiKuis()">🎯 Mulai Kuis</button>
+    <p class="quiz-intro">Uji seberapa banyak kamu belajar hari ini, yuk!</p>
+    <button id="startBtn" onclick="mulaiKuis()" type="button">🎯 Mulai Kuis</button>
 
     <div id="quiz-box">
 
@@ -247,21 +274,20 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
             <button onclick="jawab(this, false)">Membuang sampah</button>
         </div>
 
-        <button class="reset" onclick="ulangKuis()">🔄 Ulangi Kuis</button>
+        <button class="reset" onclick="ulangKuis()" type="button">🔄 Ulangi Kuis</button>
     </div>
 </section>
 
 <!-- HADIAH ROBOT -->
 <section id="robot-section">
     <h2>🎉 Hebat! Ini Hadiah Robotmu</h2>
-    <p>Putar dan mainkan robotnya 🤖</p>
+    <p>Kamu berhasil menyelesaikan kuisnya, keren banget! 🤖</p>
 
-    <div class="spline-wrapper">
-        <iframe 
-            src="https://my.spline.design/superkidrobotcopy-x6EoCbLA7R1HInyG1R1YFl5T/"
-            frameborder="0"
-            allowfullscreen>
-        </iframe>
+    <div class="robot-card" id="robotCard">
+        <div class="robot-emoji">🤖</div>
+        <div class="confetti" aria-hidden="true">
+            <span>🎉</span><span>⭐</span><span>🎊</span><span>🐠</span><span>🌟</span><span>🎉</span>
+        </div>
     </div>
 </section>
 
@@ -269,6 +295,8 @@ serta beberapa jenis burung lokal lainnya. Aksesibilitas menuju Muara Gembong se
     <p>🌊 SEASENSE © 2025 | Belajar Cinta Laut Sejak Dini 🐠</p>
 </footer>
 
+<button id="backToTop" class="back-to-top" type="button" aria-label="Kembali ke atas">⬆️</button>
+
+<script src="script.js"></script>
 </body>
 </html>
-
